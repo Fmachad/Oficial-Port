@@ -1,6 +1,5 @@
 # Oficial-Port
 
-
 # GIT 
 ## VERSIONAMENTO
 - Historico dos arquivos
@@ -22,7 +21,33 @@ foi instalado no terminal
 foi criado a conta
 
 ## Clonar o projeto
+### PASSO 01 - ENTRAR NO ARQUIVO CORRESPONDENTE>
+BOTÃO LATERAL {CODE} CLONE>
+COPIAR LINK HTTPS / SSH
 git clone https://github.com/Fmachad/Projeto-Pessoal-Franklin.git
+
+### PASSO 02 - 
+NO TERMINAL DENTRO DO VSCODE USAMOS O COMANDO git clone "nome do arquivo" (COLANDO O ARQUIVO COPIADO DO REPOSITORIO GIT)
+
+### PASSO 03 - 
+ORGANIZAR AS PASTAS NO VSCODE DEPOIS USAR O COMANDO :
+$ cd Oficial-Port/
+(PODEMOS INSERIR cd  E USAR TAB) PARA ACESSAR O MESMO REPOSITORIO NO GIT
+
+git add * adicionar todas a mudanças nos arquivos
+git status (verificar situação dos arquivos)
+
+git  config --global user.name (inserir nome de usuário)
+git  config --global user.email (inserir email)
+
+git  config --get user.name (verificar nome de usuário)
+git config --get user.email (verificar email registrado)
+
+
+
+
+
+
 ## Commits
 Informacao de Alteracao
 - Apos testado seu codigo
