@@ -125,10 +125,6 @@ nav {
 	text-align: left;
 }
 
-.cabeclaho {
-	font-size: 30px;
-}
-
 article {
 	margin: centro;
 	float: left;
@@ -165,14 +161,15 @@ footer {
 
 footer p {
     font-size: 1.5rem;
-    color:#1dd0d9;
-	float: left;
+    color:#cde8ea;
+	float: center;
 }
 
 footer small {
 	font-size: 80%;
     display: block;
-	text-align: left;
+	text-align: center;
+	padding: 5px;
 }
 
 /*Tablet*/
