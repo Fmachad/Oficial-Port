@@ -126,7 +126,7 @@ section nav {
 nav li {
     margin: 1px 20px 1px 0;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #b7dced;
 }
 
 nav li:hover {
@@ -194,12 +194,17 @@ footer small {
     }
 
     h2 {
-        font-size: 10px;
+        font-size: 30px;
     }
 
     nav ul {
         padding: 0;
         margin: 0;
+        background-color: transparent;
+    }
+
+    nav li {
+        background-color: white;
     }
 
     li::marker {
@@ -214,9 +219,16 @@ footer small {
         margin: 0;
     }
 
+    .main-container {
+        background-color: rgb(233, 233, 233);
+        margin: 0 auto;
+        width: 100%;
+    }
+
     .container {
         padding-left: 1%;
         padding-right: 1%;
         margin-top: 20px;
+        width: 100%;
     }
 }
