@@ -16,6 +16,7 @@ html {
 	font-size: 62.5%;
 	/* equivalente a 10px */
 	font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 body {
@@ -73,6 +74,7 @@ p {
 	text-align: left;
 	color: #31f5dc;
 	margin: 0;
+	line-height: 1.5;
 }
 
 a {
@@ -149,6 +151,7 @@ footer h5 {
 	margin: -5px;
 	opacity: 0.8;
 }
+
 
 /* Mobile First*/
 
