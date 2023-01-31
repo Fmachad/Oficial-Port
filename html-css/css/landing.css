@@ -81,12 +81,13 @@ article h1 {
 #tenho-interesse {
     background-color: #b6ddeb;
     width: 100%;
+    border-radius: 10px;
 }
 
 #tenho-interesse form,
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div {
-    
+
     background-color: #6ebbff !important;
     margin: 20px !important;
 }
@@ -126,6 +127,16 @@ section nav {
     margin-top: 75px;
 }
 
+section article {
+    display: block;
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+    border-radius: 10px;
+    border:#181818;
+}
+
+
 nav li {
     background-color: #efefef;
     margin: 1px 15px 1px 0;
@@ -141,12 +152,6 @@ nav a {
     color: #254159;
 }
 
-section article {
-    display: block;
-    float: left;
-    width: 40%;
-    margin-left: 50px;
-}
 
 .cognito {
     height: 400px !important;
@@ -226,33 +231,48 @@ footer small {
 }
 
 #banner {
-    background-image: url('../images/banner.png');
+    background-image: url('../images/capailus-red.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 60vh;  
+    height: 100vh;
 }
 
 .legenda {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, .6);
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(144, 224, 247, 0.6);
     float: right;
-    margin-top: 10vh 10vh 0 0;
-    width: 30vw;
+    margin: 10vh 20vh 0 0;
+    width: 25vw;
 }
 
-.legenda h5, 
-.legenda h4 {    
+.legenda h5 {
     color: #254159;
-    line-height: 1.5 ;
+    line-height: 1.3;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.legenda h4 {
+    color: #254159;
+    line-height: 1.5;
+    font-weight: 700;
+
 }
 
 .button-cta {
     display: block;
-    background-color: #f231a5;
+    float: auto;
+    border-radius: 15px;
+    background-color: #f231a58b;
     color: #181818;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
     box-shadow: 2px 2px 4px black;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
 }
