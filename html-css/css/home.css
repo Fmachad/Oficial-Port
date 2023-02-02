@@ -133,6 +133,10 @@ article {
 	width: 40%;
 }
 
+section {
+	margin-top: 90px;
+}
+
 section::after {
 	content: "";
 	display: table;

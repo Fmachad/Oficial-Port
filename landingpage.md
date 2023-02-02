@@ -34,3 +34,13 @@
 - Post para redes sociais: texto + foto + url curta
 - Incluir hospedagem (servidor web) 
 - Git - histórico de evolução (commits detalhados)
+- 
+
+### URL
+# Uniform Resource Locator
+# Localizador Uniforme de Recursos
+
+Funciona como um endereco para arquivos dentro de uma derterminada rede/site
+URL amigavel - de modo a ser comprennsivel aos usuarios (humanos e mecanismos de buscas)
+Encurtadores de URL - E uma forma de compartilhar nosso conteudo
+
