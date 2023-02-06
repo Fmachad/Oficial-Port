@@ -16,6 +16,7 @@ html {
 	font-size: 62.5%;
 	/* equivalente a 10px */
 	font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 body {
@@ -30,19 +31,22 @@ header h1 {
 	text-align: left;
 	font-size: 25px;
 	border-bottom: 1px solid #f231a5;
-	color: #1dd0d9
+	color: #1dd0d9;
+	text-transform: uppercase;
 }
+
 
 h1 {
 	font-size: 4rem;
 	font-family: 'Gotham HTF Light' sans-serif;
 	color: #f231a5;
 	text-align: center;
-	font-weight: normal;
+	font-weight:lighter;
 	margin-bottom: 30px;
 	margin-top: -10px;
 	padding-top: 50px;
 }
+	
 
 h3,
 h4 {
@@ -73,6 +77,7 @@ p {
 	text-align: left;
 	color: #31f5dc;
 	margin: 0;
+	line-height: 1.5;
 }
 
 a {
@@ -131,6 +136,7 @@ article {
 article h1 {
 	font-size: 20px;
 	font-variant: small-caps normal;
+	text-transform: uppercase;
 }
 
 section::after {
@@ -149,6 +155,7 @@ footer h5 {
 	margin: -5px;
 	opacity: 0.8;
 }
+
 
 /* Mobile First*/
 
