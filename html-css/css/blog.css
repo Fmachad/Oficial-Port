@@ -64,13 +64,13 @@ img {
     width: 100vw;
 }
 
-.container  {
+.container {
     display: block;
     float: left;
     padding: 20px;
     max-width: 100%;
     margin-top: 20px;
-   }
+}
 
 .main {
     background-color: rgb(255, 255, 255);
@@ -80,7 +80,7 @@ img {
     padding-left: 20px;
     padding-bottom: 30px;
     margin-top: 20px;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
 #tenho-interesse {
@@ -121,7 +121,7 @@ section {
     float: left;
     padding: 20px;
     width: 100%;
-    }
+}
 
 section nav {
     display: block;
@@ -165,7 +165,8 @@ footer {
 
 footer p {
     font-size: 1.4rem;
-    color: rgb(255, 255, 255);text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 footer small {
@@ -181,38 +182,58 @@ footer small {
 
 @media (max-width: 769px) {
 
-    header {
+    header,
+    header h1 {
         width: 100%;
-    }    
+        font-size: 20px;
+        text-align: left;
+        color: #1dd0d9;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
 
     section {
-        background-color: #6ebbff;
+        background-color: #b5c9db;
     }
 
     img {
-
-        width: 50%;
-     
+        width: 100%;
     }
 
     section nav,
     section article {
-        width: 80%;
+        width: 97%;
     }
 
     .main {
-        width: 80%;
+        width: 95%;
+
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #181818;
+        text-align: center;
     }
 
     h2 {
         font-size: 40px;
     }
 
-    nav ul {
-        padding: 0;
-        margin: 0;
+    p {
+        font-size: 15px;
+        color: #181818;
+
     }
 
+    nav ul {
+        width: 50%;
+        padding: 0;
+        margin-left: 170px;
+    }
 
     #tenho-interesse {
         background-color: white;
@@ -220,7 +241,113 @@ footer small {
     }
 
     .container {
+        width: 95%;
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    .container h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .container p {
+        color: #181818;
+    }
+}
+
+@media (max-width: 320px) {
+
+    header,
+    header h1 {
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        color: #1dd0d9;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+
+    section {
+        background-color: #267dc8;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .main {
+        width: 85%;
+
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 10px;
+        color: #181818;
+    }
+
+    ol li {
+        font-size: 15px;
+    }
+
+    section nav {
+        display: block;
+        float: left;
+        margin-left: -55px;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 0;
+        margin-left: 60px;
+    }
+
+    #tenho-interesse {
+        background-color: white;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .container {
+        width: 95%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .container h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .container p {
+        color: #181818;
     }
 }

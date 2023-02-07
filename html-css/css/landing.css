@@ -23,6 +23,8 @@ header h1 {
 
 h1 {
     font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     color: rgb(78, 78, 233);
     margin-top: 50px;
     margin-bottom: 40px;
@@ -516,13 +518,15 @@ footer small {
         overflow: hidden;
     }
 
-    section {
+    section article {
         padding: 0;
+        margin-left: 33px;
     }
 
     h1 {
+        text-transform: uppercase;
         font-size: 15px;
-        margin-left: 80px;
+        margin-left: px;
         margin-top: 20px;
     }
 
@@ -560,10 +564,6 @@ footer small {
         margin: 0;
     }
 
-    .container-top {
-        background-color: transparent;
-    }
-
     .container {
         margin-top: 20px;
         background-color: #9dcbf386;
@@ -582,7 +582,6 @@ footer small {
     .legenda-container {
         width: 100vw;
         float: none;
-
     }
 
     .legenda {
@@ -599,6 +598,26 @@ footer small {
         margin-left: 20px;
         margin-bottom: 10px;
 
+    }
+
+    .button-top {
+        display: block;
+        float: auto;
+        border-radius: 10px;
+        background-color: #f231a58b;
+        color: #181818;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        box-shadow: 2px 2px 4px black;
+        width: 50%;
+        height: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-top: 10px;
+        margin-left: 80px;
+        margin-top: 10px;
+    
     }
 
     .button-cta {
@@ -660,13 +679,19 @@ footer small {
         margin: 5px;
     }
 
-    .bottom h1 {
-        font-size: 20px;
+    .bottom {
+        padding: 0;
+    }
 
+    .bottom h1 {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 40px;
+       
     }
 
     .bottom p {
-        font-size: 20px;
+        font-size: 15px;
         color: #181818;
 
     }
@@ -675,7 +700,7 @@ footer small {
     dl {
         margin: 10px 0;
         margin-left: 30px;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     dt {
@@ -686,6 +711,19 @@ footer small {
         margin-left: 20px;
         margin-bottom: 20px;
         font-weight: 400;
+    }
+
+    footer p {
+        font-size: 1.1rem;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+    footer small {
+        font-size: 80%;
+        display: block;
+        text-align: center;
     }
 
 
