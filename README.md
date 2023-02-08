@@ -43,11 +43,6 @@ git  config --global user.email (inserir email)
 git  config --get user.name (verificar nome de usuário)
 git config --get user.email (verificar email registrado)
 
-
-
-
-
-
 ## Commits
 Informacao de Alteracao
 - Apos testado seu codigo
@@ -70,4 +65,56 @@ Teste de Commit
  - DOD Definition of done (definicao de concluido)
  - versionamento 1.0.0
  - problemas com commit
+
+ # Inbound Marketing
+
+## Objetivos
+- Construir um experiência completa para atrair leads para um negócio
+- Projeto digno de portfólio
+
+## Requisitos
+- Codificação HTML e CSS
+- Princípios de design
+- HTML semântico
+- Design responsivo
+- Análise Heurística 
+- Visual Studio Code
+- Git 
+
+## Metodologia
+- Explorar conceitos e técnicas
+- Evolução contínua: dividir o projeto em pequenas partes, testes, ciclos incrementais, revisão...
+- AIDA
+
+- \\\\      Atenção      ////
+-   \\\    Interesse    ///
+-     \\     Desejo    //
+-       \     Ação    /           call-to-action 4 % - 20%
+
+            LEAD (e-mail)
+
+## Briefing
+- Criar uma campanha de inbound marketing para divulgar seus serviços de criação de sites, landing pages e e-mail marketing
+- Gerar leads qualificados, com real interesse nos serviços oferecidos
+- Criar conteúdo para post (blog), e-mail marketing, landing page (call-to-action: e-mail*)
+- Criar formulários para captação de e-mails
+- Post para redes sociais: texto + foto + url curta
+- Incluir hospedagem (servidor web) 
+- Git - histórico de evolução (commits detalhados)
+- 
+
+### URL
+# Uniform Resource Locator
+# Localizador Uniforme de Recursos
+
+Funciona como um endereco para arquivos dentro de uma derterminada rede/site
+URL amigavel - de modo a ser comprennsivel aos usuarios (humanos e mecanismos de buscas)
+Encurtadores de URL - E uma forma de compartilhar nosso conteudo
+
+### Exercicio
+Fluxo completo
+
+
+
+
 
