@@ -44,4 +44,14 @@ Funciona como um endereco para arquivos dentro de uma derterminada rede/site
 URL amigavel - de modo a ser comprennsivel aos usuarios (humanos e mecanismos de buscas)
 Encurtadores de URL - E uma forma de compartilhar nosso conteudo
 
+### eXERCICIO
+FLUXO COMPLETO
+
+1. Criar Landing Page
+2. Criar newsletter
+3. Publicar projeto em um servidor web
+4. criar URL amigavel para compartilhamento : http://bityli.com/
+5. 
+
+
 
