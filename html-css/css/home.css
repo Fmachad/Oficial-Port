@@ -11,7 +11,7 @@ html {
 	overflow-x: hidden;
 	font-size: 62.5%;
 	/* equivalente a 10px */
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	margin: 0;
 	padding: 0;
 }
@@ -24,13 +24,13 @@ header p {
 	text-transform: uppercase;
 	font-size: 20px;
 	border-bottom: 1px solid #f231a5;
-	color: #1dd0d9
+	color: #0ce5f0c8
 }
 
 header small {
 	display: block;
 	font-size: 12px;
-	color: #ffffff;
+	color: #ffffff50;
 }
 
 h1 {
@@ -49,6 +49,7 @@ h2 {
 	font-weight: normal;
 	color: #09f018d1;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 h3 {
@@ -82,7 +83,7 @@ p {
 	font-size: 1.9rem;
 	/* equivalente a 16px */
 	font-weight: normal;
-	text-align: center;
+	text-align: left;
 	color: #008ea0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -119,6 +120,7 @@ nav {
 }
 
 .navegacao a {
+
 	color: #f231a5;
 	display: block;
 	margin-bottom: .3rem;
@@ -126,14 +128,37 @@ nav {
 	text-align: left;
 }
 
+.cab  {
+	display: block;
+	float: none;
+	background-image: url(../images/pic-01.jpg);
+	margin-top: 20px;
+	width: auto;
+	height: 100%;
+}
+
+.cab h1 {
+	font-size: 30px;
+	background-color: #cde8ea0f;
+	padding: 10px;
+	margin: 50px;
+	margin-left: 50px;
+	border-radius: 25px;
+	color: #ffffff5e;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
 article {
-	margin: centro;
+	margin: 0;
 	float: left;
 	padding: 0px;
 	width: 40%;
 }
 
 section {
+	width: 100%;
 	margin-top: 90px;
 }
 
@@ -148,12 +173,11 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
-	width: 50%;
+	width: 70%;
 }
 
 .filtro:hover {
-
-	filter: blur(2px);
+	filter: sepia(50%);
 }
 
 footer {
@@ -167,13 +191,15 @@ footer {
 
 footer p {
 	font-size: 1.5rem;
-	color: #cde8ea;
-	float: center;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-left: 20px;
+
 }
 
 footer small {
 	font-size: 80%;
-	display: block;
+	display: flex;
 	text-align: center;
 	padding: 5px;
 	color: #ffffff;
