@@ -59,7 +59,8 @@ h3 {
 	color: #008ea0;
 	font-weight: 200;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 25px;
+	line-height: 30px;
 	text-align: left;
 }
 
@@ -97,21 +98,19 @@ ul {
 }
 
 ul li {
-	font-size: 0.8em;
+	font-size: 1.0em;
 	/* equivalente a 16px */
 	width: 80%;
 	height: 3rem;
 	/* equivalente a 30px */
 }
 
-nav {
-	float: left;
-	width: 30%;
+.navegacao {
+	width: 50%;
 	padding: 15px;
 	text-align: auto;
-	font-weight: 200;
 	margin-top: -15px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .navegacao li {
@@ -120,7 +119,6 @@ nav {
 }
 
 .navegacao a {
-
 	color: #f231a5;
 	display: block;
 	margin-bottom: .3rem;
@@ -128,7 +126,7 @@ nav {
 	text-align: left;
 }
 
-.cab  {
+.cab {
 	display: block;
 	float: none;
 	background-image: url(../images/pic-01.jpg);
@@ -147,14 +145,14 @@ nav {
 	color: #ffffff5e;
 	font-weight: 300;
 	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;	
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 article {
 	margin: 0;
 	float: left;
-	padding: 0px;
-	width: 40%;
+	padding: 50px;
+	width: 100%;
 }
 
 section {
@@ -168,12 +166,18 @@ section::after {
 	clear: both;
 }
 
+.texto h1 {
+	background-color: rgba(11, 200, 200, 0.395);
+	background-position: center;
+	border-radius: 30px;
+}
+
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
-	width: 70%;
+	width: 40%;
 }
 
 .filtro:hover {
@@ -240,28 +244,51 @@ footer small {
 		padding-bottom: 10px;
 		margin: 10px;
 		padding: 0;
-		font-size: 15px;
+		font-size: 20px;
 		text-align: center;
+	}
+
+	.texto h1 {
+		font-size: 25px;
+		padding: 10px;
 	}
 
 	p {
 		margin: 0;
 	}
 
-	.navegacao a {
-		width: 100%;
-		text-align: center;
-	}
-
-	article {
-		width: 100%;
-		font-size: 1.8rem;
+	.cab h1 {
+		font-size: 20px;
 	}
 
 	nav {
 		width: 100%;
 		padding: 0;
 		margin: 0;
+	}
+
+	.navegacao {
+		width: 90%;
+		padding: 15px;
+		text-align: auto;
+		margin-top: -15px;
+		margin-left: 40px;
+	}
+
+	.navegacao a {
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	article {
+		width: 100%;
+		font-size: 1.8rem;
+		padding: 10px;
+	}
+
+	img{
+		width: 50%;
 	}
 
 	ul {
@@ -282,6 +309,24 @@ footer small {
 		border-bottom: 1px solid black;
 		padding: 20px;
 	}
+
+	footer p {
+		font-size: 1.5rem;
+		text-align: center;
+		color: #ffffff;
+		margin-top: 20px;
+		margin-left: 20px;
+	
+	}
+	
+	footer small {
+		font-size: 80%;
+		display: flex;
+		justify-content: center ;
+		text-align: center;
+		padding: 5px;
+		color: #ffffff;
+	}
 }
 
 /*Smatphones*/
@@ -300,6 +345,10 @@ footer small {
 		font-size: 10px;
 	}
 
+.cab h1 {
+	font-size: 20px;
+}
+
 	h3 {
 		font-size: 14px;
 		margin: 10px;
@@ -308,7 +357,13 @@ footer small {
 
 	img {
 		display: flex;
-		width: 40%;
+		width: 80%;
+		padding: 0;
+	}
+
+	article {
+
+	padding: 10px;
 	}
 
 	nav {
@@ -323,9 +378,15 @@ footer small {
 		height: 2rem;
 	}
 
+	.navegacao {
+		padding: 0;
+		margin: 13px;
+	}
+
 	.navegacao a {
 		font-size: 12px;
 		padding: 0;
+		margin: 0;
 	}
 
 	.navegacao li {
@@ -338,7 +399,7 @@ footer small {
 	}
 
 	.texto h1 {
-		font-size: 12x;
+		font-size: 10px;
 	}
 
 
