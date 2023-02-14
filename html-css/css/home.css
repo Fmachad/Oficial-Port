@@ -1,36 +1,69 @@
-/* 
-	Arquivo CSS Para a Pagina Home
-*/
-
-* {
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
-}
-
 html {
 	overflow-x: hidden;
 	font-size: 62.5%;
-	/* equivalente a 10px */
+	
+}
+	
+
+body {
+	font-family: 'Open Sans', sans-serif;
 	background-color: rgb(0, 0, 0);
-	margin: 0;
-	padding: 0;
+
 }
 
-header p {
-	/*background: url(../imagens/head-02.jpg);*/
-	background-color: black;
-	padding: 30px;
-	text-align: left;
-	text-transform: uppercase;
-	font-size: 20px;
-	border-bottom: 1px solid #f231a5;
-	color: #0ce5f0c8
+.main-container {
+	display:inline;
+	width: 100vw;
+	margin: 0 auto;
 }
 
-header small {
+.container {
 	display: block;
-	font-size: 12px;
-	color: #ffffff50;
+	float: left;
+	padding-right: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	width: auto;
+}
+
+.top h1 {
+	background-color: #008da045;
+	margin-top: 20px;
+	margin-left: 180px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.top img {
+	width: auto;
+	margin: 0;
+}
+
+
+header {
+	width: 100%;
+	background-color: black;
+	display: block;
+	float: left;
+	border-bottom: 2px solid #f231a5;
+	padding: 20px;
+
+}
+
+header h1 {
+	color: aqua;
+	margin: 0;
+	padding-top: 10px;
+	text-align: left;
+}
+
+header h2 {
+	color: #ffffff84;
+	margin: 0;
+	text-align: left;
 }
 
 h1 {
@@ -74,10 +107,6 @@ h5 {
 	padding: -5px;
 }
 
-a {
-	text-decoration: none;
-	cursor: pointer;
-}
 
 p {
 	font-weight: 200;
@@ -91,93 +120,50 @@ p {
 	line-height: 1.5;
 }
 
-ul {
-	font-size: 20px;
-	margin: 0;
-	padding: 0;
+ol {
+	margin-left: 30px;
 }
 
-ul li {
-	font-size: 1.0em;
-	/* equivalente a 16px */
-	width: 80%;
-	height: 3rem;
-	/* equivalente a 30px */
+ol li {
+	font-size: 50px;
+	color: #f231a5
 }
 
-.navegacao {
-	width: 50%;
-	padding: 15px;
-	text-align: auto;
-	margin-top: -15px;
-	margin-left: 40px;
-}
-
-.navegacao li {
+section article {
 	display: block;
-	padding: 1rem 1rem 2rem 1rem;
-}
-
-.navegacao a {
-	color: #f231a5;
-	display: block;
-	margin-bottom: .3rem;
-	width: 100%;
-	text-align: left;
-}
-
-.cab {
-	display: block;
-	float: none;
-	background-image: url(../images/computer-2982270_1280.jpg);
-	background-repeat: no-repeat;
-	
-	width: 100%;
-	height: 900px;
-}
-
-.cab h1 {
-	font-size: 30px;
-	background-color: #cde8ea0f;
-	padding: 10px;
-	margin: 50px;
-	margin-left: 50px;
-	border-radius: 25px;
-	color: #ffffff5e;
-	font-weight: 300;
-	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-article {
-	margin: 0;
 	float: left;
-	padding: 50px;
-	width: 100%;
+	width: 60%;
+	margin: 10px;
 }
 
-section {
-	width: 100%;
+section nav {
+	display: block;
+	float: left;
+	width: 30%;
+	margin-top: 30px;
+	padding-left: 30px;
 }
 
-section::after {
-	content: "";
-	display: table;
-	clear: both;
+nav li {
+	margin: 1px 20px 1px 0;
+	padding: 10px;
+	color: #f231a5;
 }
 
-.texto h1 {
-	background-color: rgba(11, 200, 200, 0.395);
-	background-position: center;
-	border-radius: 30px;
+nav a {
+	color: #f231a5;
+	font-size: 1.8rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: aqua;
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	width: 40%;
+	width: 35%;
+	margin-top: 50px;
+	margin-left: 200px;
 }
 
 .filtro:hover {
@@ -214,206 +200,291 @@ footer small {
 @media (max-width: 769px) {
 	/* A PARTIR DE 768px SERA ATENDIDO ESSES PADROES*/
 
-
-	img {
-		width: 25%;
+	.top h1 {
+		background-color: #008da068;
+		width: 80%;
+		margin: 40px 60px;
 		padding: 10px;
+		border-radius: 30px;
 	}
 
-	.texto h1 {
-		font-size: 20px;
+	.top img {
+		width: 100%;
+		height: 70%;
+		margin: 0;
+		padding: 0;
 	}
 
-	.texto h2 {
-		font-size: 12px;
-	}
-
-	.texto p {
-		font-size: 15px;
+	header {
 		padding: 10px;
 	}
 
 	header h1 {
-		width: 100%;
-		font-size: 13px;
-		padding: 20px;
-		margin: 0;
+		font-size: 2rem;
+	}
+
+	header h2 {
+		font-size: 1.5rem;
+		padding-bottom: 5px;
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	h2 {
+		font-size: 15px;
 	}
 
 	h3 {
-		padding-bottom: 10px;
-		margin: 10px;
-		padding: 0;
+		margin-top: 30px;
+		margin-bottom: 5px;
+		margin-left: 10px;
+		color: #008ea0;
+		font-weight: 200;
+		font-style: normal;
 		font-size: 20px;
-		text-align: center;
 	}
 
-	.texto h1 {
-		font-size: 25px;
-		padding: 10px;
+	a {
+		text-decoration: none;
+		cursor: pointer;
+		font-size: 10px;
 	}
 
 	p {
+		font-weight: 200;
+		font-size: 1.5rem;
+		font-weight: normal;
+		color: #008ea0;
 		margin: 0;
-	}
-
-	.cab h1 {
-		font-size: 20px;
-	}
-
-	nav {
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	}
-
-	.navegacao {
-		width: 90%;
-		padding: 15px;
-		text-align: auto;
-		margin-top: -15px;
-		margin-left: 40px;
-	}
-
-	.navegacao a {
-		width: 100%;
-		text-align: center;
-		font-size: 15px;
-	}
-
-	article {
-		width: 100%;
-		font-size: 1.8rem;
 		padding: 10px;
+		line-height: 1.7;
 	}
 
-	img{
+	ol {
+		margin-left: 30px;
+	}
+
+	ol li {
+		font-size: 50px;
+		color: #f231a5
+	}
+
+	section nav {
+		display: block;
+		float: left;
+		width: 30%;
+		margin-top: 30px;
+		padding-left: 10px;
+	}
+
+	nav li {
+		margin: 1px 20px 1px 0;
+		padding: 5px;
+		color: #f231a5;
+	}
+
+	nav a {
+		color: #f231a5;
+		font-size: 1.3rem;
+	}
+
+	nav a:hover {
+		color: rgb(0, 0, 0);
+	}
+
+	section article {
+		display: block;
+		float: left;
 		width: 50%;
+		margin: 10px;
 	}
 
-	ul {
-		text-align: center;
-		font-size: 15px;
+	img {
+		width: 50%;
+		margin-top: 50px;
+		margin-left: 100px;
+	}
+
+	footer {
+		background-color: black;
+		display: block;
+		float: left;
 		padding: 0;
-		margin: 0;
-	}
-
-	ul li {
 		width: 100%;
-		font-size: 13px;
-	}
-
-	footer h5 {
-		width: 100%;
-		font-size: 13px;
-		border-bottom: 1px solid black;
-		padding: 20px;
+		border-top: 1px solid #f231a5;
 	}
 
 	footer p {
 		font-size: 1.5rem;
-		text-align: center;
 		color: #ffffff;
-		margin-top: 20px;
 		margin-left: 20px;
-	
+
 	}
-	
+
 	footer small {
-		font-size: 80%;
+		font-size: 60%;
 		display: flex;
-		justify-content: center ;
 		text-align: center;
 		padding: 5px;
 		color: #ffffff;
 	}
 }
 
+
 /*Smatphones*/
 
 @media (max-width: 320px) {
 
+	.main-container {
+		display: block;
+		width: 100vw;
+		margin: 0;
+	}
 
-	html {
+	.container {
+		display: block;
+		float: left;
+		width: 100vw;
+		margin: 0;
+	}
+
+	.top {
+		width: 100%;
+	}
+
+	.top h1 {
+		background-color: #008da068;
+		width: 50%;
+		margin-left: 80px;
+		padding: 5px;
+		border-radius: 30px;
+	}
+
+	.top img {
+		width: 106%;
+		height: 40%;
+		margin: 0;
+		padding: 0%;
+	}
+
+	header {
+		padding-left: 10px;
+	}
+
+	header h1 {
+		font-size: 1.3rem;
+	}
+
+	header h2 {
+		font-size: 1rem;
+		padding-bottom: 5px;
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	h2 {
 		font-size: 15px;
 	}
 
-	header h1,
-	footer h5 {
-		margin: 0;
-		padding: 15px;
-		font-size: 10px;
-	}
-
-.cab h1 {
-	font-size: 20px;
-}
-
 	h3 {
-		font-size: 14px;
-		margin: 10px;
-		padding: 0;
-	}
-
-	img {
-		display: flex;
-		width: 80%;
-		padding: 0;
-	}
-
-	article {
-
-	padding: 10px;
-	}
-
-	nav {
-		padding: 0;
+		margin-top: 10px;
 		margin: 0;
+		color: #008ea0;
+		font-weight: 200;
+		font-size: 1.4rem;
 		text-align: center;
 	}
 
-	ul li {
-		padding: 0;
+	a {
+		text-decoration: none;
+		cursor: pointer;
+		font-size: 10px;
+	}
+
+	p {
+		font-weight: 200;
+		font-size: 1.2rem;
+		font-weight: normal;
+		color: #008ea0;
 		margin: 0;
-		height: 2rem;
-	}
-
-	.navegacao {
-		padding: 0;
-		margin: 13px;
-	}
-
-	.navegacao a {
-		font-size: 12px;
-		padding: 0;
-		margin: 0;
-	}
-
-	.navegacao li {
-		padding: 12px;
-	}
-
-	.texto p {
-		font-size: 12px;
 		padding: 10px;
 	}
 
-	.texto h1 {
-		font-size: 10px;
+	ol {
+		margin-left: 30px;
 	}
 
+	ol li {
+		font-size: 50px;
+		color: #f231a5
+	}
+
+	section nav {
+		display: block;
+		float: left;
+		width: 100%;
+		margin-top: 0;
+		padding: 0;
+	}
+
+	nav li {
+		margin: 1px 0 1px 0;
+		color: #f231a5;
+		text-align: center;
+	}
+
+	nav a {
+		color: #f231a5;
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+		color: rgb(0, 0, 0);
+	}
+
+	section article {
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 10px;
+	}
+
+	img {
+		width: 50%;
+		margin-top: 0;
+		margin-bottom: 20px;
+		margin-left: 75px;
+	}
+
+	footer {
+		background-color: black;
+		display: block;
+		float: left;
+		padding: 0;
+		width: 100%;
+		border-top: 1px solid #f231a5;
+	}
 
 	footer p {
-		font-size: 10px;
-		color: #cde8ea;
-		float: center;
+		font-size: 1.3rem;
+		color: aqua;
+		margin-left: 20px;
+
 	}
 
 	footer small {
-		font-size: 10px;
-		display: block;
+		font-size: 60%;
+		display: flex;
 		text-align: center;
+		padding: 5px;
 		color: #ffffff;
 	}
-
 }
