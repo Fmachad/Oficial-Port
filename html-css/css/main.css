@@ -7,9 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    padding: 0;
+}
+
 nav {
     background-color: black;
-    padding: 10px 60px;
+    padding: 30px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,8 +41,8 @@ nav li {
 nav li a {
     text-decoration: none;
     color: aqua;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 400;
     padding: 8px 15px;
     border-radius: 5px;
     transition: 0.3s;
@@ -97,7 +101,7 @@ nav li a:hover {
     border: 2px solid white;
 }
 
-.texto .botoes button.n-overlay:hover{
+.texto .botoes button.n-overlay:hover {
     color: black;
     background: white;
 }
@@ -120,9 +124,7 @@ nav li a:hover {
 
 .btn02 {
     text-decoration: none;
-    
     color: #000000;
-
 }
 
 .btn02:hover {
@@ -141,4 +143,60 @@ nav li a:hover {
     100% {
         transform: scale(1);
     }
+}
+
+/*Resposive*/
+
+@media (max-width: 769px) {
+
+    nav {
+        padding: 10px 40px;
+    }
+
+    nav li a {
+        font-weight: 300;
+    }
+
+    .texto .title {
+        color: aqua;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .texto .botoes {
+        margin-top: 30px;
+    }
+
+    .texto .botoes button {
+        height: 45px;
+        width: 140px;
+        transition: 1.6s;
+    }
+}
+
+@media (max-width: 320px) {
+    nav .logo a {
+        font-size: 14px;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 10px;
+    }
+
+    nav li {
+        margin-left: 10px;
+    }
+
+    nav li a {
+        background: #f231a5;
+        color: #000000;
+        font-size: 8px;
+        font-weight: 600;
+        padding: 2px 6px;
+    }
+
+
 }
