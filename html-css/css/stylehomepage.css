@@ -8,18 +8,19 @@
 }
 
 nav {
-    background-color: #18929d;
+    background-color: black;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #f231a5;
 }
 
 nav .logo a {
     text-decoration: none;
-    color: #fff;
+    color: #f231a5;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 nav ul {
@@ -35,9 +36,9 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: #fff;
+    color: aqua;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
     padding: 8px 15px;
     border-radius: 5px;
     transition: 0.3s;
@@ -50,7 +51,7 @@ nav li a:hover {
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)), url(../images/pexels-pixabay-247676.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.908)), url(../images/pexels-pixabay-247676.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,13 +64,13 @@ nav li a:hover {
 .texto .title {
     color: #fff;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .texto .sub_title {
     color: #fff;
     font-size: 58px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .texto .botoes {
@@ -96,7 +97,7 @@ nav li a:hover {
     border: 2px solid white;
 }
 
-.texto .botoes button.n-overlay:hover {
+.texto .botoes button.n-overlay:hover{
     color: black;
     background: white;
 }
@@ -107,12 +108,33 @@ nav li a:hover {
     animation: vibrar 0.5s ease-in-out infinite both;
 }
 
+.btn01 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn01:hover {
+    background: none;
+    color: #000000;
+}
+
+.btn02 {
+    text-decoration: none;
+    
+    color: #000000;
+
+}
+
+.btn02:hover {
+    background: #fff;
+}
+
 @keyframes vibrar {
     0% {
         transform: scale(1);
     }
-    
-    50%{
+
+    50% {
         transform: scale(1.1);
     }
 
