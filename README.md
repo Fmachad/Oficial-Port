@@ -34,14 +34,14 @@ ORGANIZAR AS PASTAS NO VSCODE DEPOIS USAR O COMANDO :
 $ cd Oficial-Port/
 (PODEMOS INSERIR cd  E USAR TAB) PARA ACESSAR O MESMO REPOSITORIO NO GIT
 
-git add * adicionar todas a mudanças nos arquivos
-git status (verificar situação dos arquivos)
+- git add * adicionar todas a mudanças nos arquivos
+- git status (verificar situação dos arquivos)
 
-git  config --global user.name (inserir nome de usuário)
-git  config --global user.email (inserir email)
+- git  config --global user.name (inserir nome de usuário)
+- git  config --global user.email (inserir email)
 
-git  config --get user.name (verificar nome de usuário)
-git config --get user.email (verificar email registrado)
+- git  config --get user.name (verificar nome de usuário)
+- git config --get user.email (verificar email registrado)
 
 ## Commits
 Informacao de Alteracao
@@ -89,7 +89,7 @@ Teste de Commit
 - \\\\      Atenção      ////
 -   \\\    Interesse    ///
 -     \\     Desejo    //
--       \     Ação    /           call-to-action 4 % - 20%
+-       \     Ação    /           call-to-action 4% - 20%
 
             LEAD (e-mail)
 
@@ -105,15 +105,23 @@ Teste de Commit
 
 ### URL
 # Uniform Resource Locator
-# Localizador Uniforme de Recursos
+## Localizador Uniforme de Recursos
 
 Funciona como um endereco para arquivos dentro de uma derterminada rede/site
 URL amigavel - de modo a ser comprennsivel aos usuarios (humanos e mecanismos de buscas)
 Encurtadores de URL - E uma forma de compartilhar nosso conteudo
 
-### Exercicio
-Fluxo completo
+### EXERCICIO
+FLUXO COMPLETO
 
+1. Criar Landing Page
+2. Criar newsletter
+3. Publicar projeto em um servidor web
+4. criar URL amigavel para compartilhamento : http://bityli.com/
+5. Convidar  pessoas nas redes sociais.
+6. Enviar Newsletter para list de contatos com link para sua do post https:/putsmail.com
+7. Comitar codigo no repositorio
+8. Enviar links para avaliacao na plataforma EBAC
 
 
 
