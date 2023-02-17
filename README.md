@@ -114,13 +114,20 @@ Encurtadores de URL - E uma forma de compartilhar nosso conteudo
 ### EXERCICIO
 FLUXO COMPLETO
 
-1. Criar Landing Page
-2. Criar newsletter
-3. Publicar projeto em um servidor web
-4. criar URL amigavel para compartilhamento : http://bityli.com/
-5. Convidar  pessoas nas redes sociais.
+1. Criar Landing Page - Realized
+   
+2. Criar newsletter - Realized
+   
+3. Publicar projeto em um servidor web - Realized
+   
+4. criar URL amigavel para compartilhamento : http://bityli.com/ - " https://bityli.com/0qusi " - Realized
+   
+5. Convidar  pessoas nas redes sociais. - Realized
+   
 6. Enviar Newsletter para list de contatos com link para sua do post https:/putsmail.com
-7. Comitar codigo no repositorio
+   
+7. Comitar codigo no repositorio Realized
+   
 8. Enviar links para avaliacao na plataforma EBAC
 
 
