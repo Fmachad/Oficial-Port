@@ -1,0 +1,107 @@
+# JavaScript
+
+- Estado do JavaScript (htttps://2020.stateosjs.com/en-US/technologies/)
+- Onde e executado
+- Unipresente na WEB
+- APP hibridos
+- Aplicacao de ponta-a-ponta: banco de dados, back-end/front-end
+- Interagir com DOM (api-web)
+- Requisicoes dinamicas
+- IoT (Internet das cOisas): o JS esta presente em tudo
+- ECMAScript
+
+## FUNDAMENTOS JS
+
+- Fundamentos do JavaScript Sao essenciais para avancar no desenvolvimento de aplicacoes modernas, e a base de diversos frameworks
+- Neste curso evoluimos da base para o topo
+- E melhor do que comecar na frente e precisar retornar pra base.
+
+## METODOLOGIA
+
+- Metodo progressivo e interado
+- Todo arranha ceu so e erguido depois de uma fundacao robusta e segura
+- Neste curso apresentamos conceitos de modo progressivo, seguindo uma linha de evolucao
+- Comeca facil e vai aumentando a complexibilidade
+- Alem de Especializacao, aprendemos integrar com diversas possibilidades.
+
+## LÓGICA  DE PROGRAMAÇÃO 
+
+### COMPUTADOR
+
+- Máquina que extrai dados
+- Processar: realizar operações nos dados de entrada
+- Dado: é o que pode ser processado
+- Informação: resultado do processamento
+- Processamento de dados: Entradda (dados) > Processamento > Saída (informação)
+
+### Lógica
+
+- Lógica é aquilo que faz sentido
+
+### Como Escrever um programa?
+
+- Aplicar a lógica para descrever os passos e resolver um problema em  ordem de execução 
+
+### A lógica de programação 
+
+- É  a técnica de sequenciar pensamentos, passos, fluxo de dados para atingir um objetivo: a informação
+- A sequência de passos, instruções que o computador deve seguir é conhecida como ALGORITMO 
+
+### Algoritmo
+
+- Sequência lógica e finita de instruções que resolvem um problema
+- Exemplo: receita de bolo, manual de instruções
+- Nem todo o algoritmo é um programa de computador, mas todo programa de computador é um algoritmo.
+- Quem viabiliza o funcionamento dos algoritmos nos computadores: linguagens de programação
+
+### Agoritmo para calcular a média de 3 números 
+
+1. Início;
+2. Receber o primeiro número: entrada 1;
+3. Receber o segundo número: entrada 2;
+4. Receber o terceiro número: entrada 3;
+5. Somar os 3 números recebidose dividir por três: (entrada 1 + entrada 2 + entrada 3)/ 3'
+6. Exibir o resultado: print, echo, console.log'
+7. Fim;
+
+### Torre de Hanoi
+
+- Mover todos os discos para a direita, com o menor número de movimentos possível, sem colocxar o disco em cima de um disco menor: https://www.somatematica.com.br/jogos/hanoi
+
+### fUNCIONALIDADES GERAIS
+
+- Criar algoritmos e programas para executar no navegador: client side
+- Manipular o DOM: elementos, eventos, estilos
+- Node.js: framework JS para back-end/ runtime em JS
+- Mongo.db / GraphQL: banco de dados em JS
+- React / Vue.js / Angular: framewor JS para desenvolvimeto WEB mobile
+- React Native: framework JS para desenvolvimento mobile
+- Recebe e manupula dados
+- tomar decisões baseada na lógica computacional
+- loop e interações
+- condições de saída
+
+### executar o JS
+
+- Console Browsers
+- Editores: Sublime, Visual Studio Code
+- JS Fiddle https://jsfiddle.net/
+
+### Instalacao do Node.js
+
+- Para a gente conseguir executar scripts JS no terminal de comando, precisamos utilizar o Node.js
+- Instalacao: https://node.js.org/pr-br/download/package-manager 
+
+ # Instalado Node (uso Terminal de Coamando)
+
+
+- PS C:\Users\Franklin\Desktop\Portfolio\Oficial-Port> node -v
+v18.14.2
+
+- PS C:\Users\Franklin\Desktop\Portfolio\Oficial-Port> npm -v
+9.5.0
+
+- PS C:\Users\Franklin\Desktop\Portfolio\Oficial-Port> node
+Welcome to Node.js v18.14.2.
+Type ".help" for more information.
+- (COMANDO PARA ACESSAR PELO TERMINAL)
