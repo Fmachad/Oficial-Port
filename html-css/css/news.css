@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Noto+Sans:ital,wght@1,700&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,300;1,500&family=Raleway:ital,wght@0,100;0,200;0,500;0,700;1,600&family=Roboto:ital@1&display=swap');
 
 * {
-  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 html {
     font-size: 62.5%;
     overflow-x: hidden;
-    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     display: block;
     float: left;
-}
-
-body {
+    margin: 0 auto;
     width: 100%;
 }
+
 
 header {
     display: block;
@@ -34,14 +41,19 @@ header h1 {
     font-weight: 300;
     color: aqua;
     margin: 0;
+    padding: 0;
     font-size: 3rem;
     background: none;
+    text-align: left;
 }
 
 header h2 {
+    font-size: 2rem;
     font-weight: 200;
-    color: #ffffff84;
+    color: #f231a5;
     margin: 0;
+    background: none;
+    text-align: left;
 }
 
 h1 {
@@ -57,13 +69,17 @@ h1 {
 
 h2 {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(49, 69, 181);
+    text-align: center;
+    padding: 10px;
     margin: 20px 0;
+    border-radius: 15px;
+    background: rgba(47, 233, 233, 0.181);
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     color: rgb(53, 64, 132);
     margin: 20px 0;
@@ -75,8 +91,23 @@ p {
     margin: 10px 10px auto;
 }
 
+.button {
+    display: block;
+    float: none;
+    color: #f231a5;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(47, 233, 233, 0.181);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: auto;
+    align-content: center;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+
 img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -100,13 +131,13 @@ section {
     /* Equivale a 15px*/
     margin-top: 100px;
     padding: 20px;
-    width: 85%;
+    width: 100%;
 }
 
 section nav {
     display: block;
     float: left;
-    width: 35%;
+    width: 30%;
     margin-top: 60px;
 }
 
@@ -114,6 +145,7 @@ nav li {
     margin: 1px 20px 1px 0;
     padding: 10px;
     background-color: rgba(47, 233, 233, 0.181);
+    border-radius: 20px;
 }
 
 nav li:hover {
@@ -134,8 +166,8 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 60%;
-    margin: 10px;
+    width: 50%;
+    margin: 60px 50px 0;
 }
 
 footer {
@@ -164,31 +196,24 @@ footer small {
 
 @media (max-width: 769px) {
 
-    header .container {
+    header {
         margin: 0;
     }
 
     header h1 {
         font-size: 2rem;
-        padding: 0;
-        margin: ;
     }
 
     header h2 {
         font-size: 1.5rem;
-        font-weight: 200;
+        text-align: left;
         color: #f231a5;
-        background: none;
+        padding: 0;
+        margin: 15px;
+
+
     }
 
-    .container {
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-
-    article .container {
-        margin-left: 50px;
-    }
 
     h1 {
         font-weight: 300;
@@ -199,24 +224,23 @@ footer small {
     }
 
     h2 {
-        font-size: 1.7rem;
+        font-size: 2rem;
         font-weight: 300;
         background: rgba(0, 0, 0, 0.81);
         color: aqua;
         border-radius: 20px;
-        padding: 10px;
         margin-bottom: 20px;
     }
 
     h3 {
         font-size: 1.7rem;
         font-weight: 300;
-        background: rgba(0, 0, 0, 0.81);
-        color: aqua;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.871);
+        color: #f231a5;
         border-radius: 20px;
         padding: 10px;
         margin-bottom: 20px;
-
     }
 
     p {
@@ -236,7 +260,7 @@ footer small {
         margin-top: 75px;
     }
 
-     nav li {
+    nav li {
         margin: 1px 10px 1px 0;
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.181);
@@ -269,7 +293,25 @@ footer small {
 @media (max-width: 320px) {
 
     header h1 {
-        text-align: left;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    img {
+        width: 100%;
     }
 
     section {
@@ -285,31 +327,21 @@ footer small {
         padding: 0;
     }
 
-    article {
+    section article {
         width: 100%;
-    }
-
-    .container {
-        width: 100%;
+        padding: 0;
         margin: 0;
     }
 
-    nav li {
-        margin-right: 15px;
-        margin-bottom: 5px;
-    }
-
-    h1 {
-        font-size: 3rem;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        font-weight: 300;
+    ol li {
+        font-size: 13px;
     }
 
     footer .container {
         background: none;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }

@@ -48,7 +48,7 @@ header {
 	float: left;
 	width: 100%;
 	background-color: black;
-	border-bottom: 2px solid #f231a5;
+	border-bottom: 1px solid #f231a5;
 	padding: 20px;
 }
 
@@ -324,9 +324,7 @@ footer small {
 		padding: 7px;
 		color: #ffffff;
 	}
-
 }
-
 
 /*Smatphones*/
 
@@ -371,6 +369,7 @@ footer small {
 
 	h1 {
 		font-size: 1.2rem;
+		margin-top: 20px;
 	}
 
 	h2 {
@@ -397,7 +396,7 @@ footer small {
 	}
 
 	.container {
-		margin:0 ;
+		margin: 0;
 		padding: 0;
 	}
 
@@ -423,7 +422,7 @@ footer small {
 	section nav {
 		display: block;
 		float: none;
-		width: 100%;
+		width: 90%;
 		margin: 0;
 	}
 
@@ -436,19 +435,20 @@ footer small {
 		font-weight: 300;
 		float: left;
 		margin-bottom: 20px;
-		}
+	}
 
 	footer p {
-		font-size: 0.7rem;
-		color: #008ea0;
+		font-size: 0.5rem;
+		color: #ffffff;
 		padding: 10px;
 	}
 
 	footer small {
-		font-size: 60%;
+		font-size: 40%;
 		display: flex;
 		text-align: center;
 		padding: 9px;
 		color: #ffffff;
+		font-size: 7px;
 	}
 }

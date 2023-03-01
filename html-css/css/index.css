@@ -7,8 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 body {
     padding: 0;
+    width: 100%;
 }
 
 nav {
@@ -149,18 +151,22 @@ nav li a:hover {
 
 @media (max-width: 769px) {
 
-    nav {
-        padding: 10px 40px;
+
+    nav .logo a {
+        font-size: 25px;
     }
 
     nav li a {
-        font-weight: 300;
+        font-size: 15px;
     }
 
     .texto .title {
+        font-size: 45px;
+    }
+
+    .texto .sub_title {
         color: aqua;
-        font-size: 40px;
-        font-weight: 300;
+        font-size: 23px;
     }
 
     .texto .botoes {
@@ -169,32 +175,65 @@ nav li a:hover {
 
     .texto .botoes button {
         height: 45px;
-        width: 140px;
-        transition: 1.6s;
+        width: 150px;
+    }
+
+    .texto .botoes button.n-overlay {
+        color: #fff;
+        background: none;
+        border: 2px solid white;
     }
 }
 
 @media (max-width: 320px) {
+    nav {
+        padding: 15px 15px;
+    }
+
     nav .logo a {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     nav ul {
         display: flex;
-        flex-direction: column;
-        align-items:stretch;
+        flex-direction: row;
+        align-items: end;
         list-style: none;
-        padding: 8px;
+        padding: 4px;
     }
 
     nav li {
         margin-left: 8px;
     }
 
-    nav li a {       
-        color:#f231a5;
+    nav li a {
+        color: aqua;
         font-size: 8px;
-        font-weight: 400;
+        font-weight: 300;
         padding: 2px 4px;
+    }
+
+    .texto .title {
+        font-size: 35px;
+    }
+
+    .texto .sub_title {
+        color: aqua;
+        font-size: 20px;
+    }
+
+    .texto .botoes {
+        margin-top: 50px;
+    }
+
+    .texto .botoes button {
+        height: 30px;
+        width: 90px;
+    }
+
+    .texto .botoes button.n-overlay {
+        color: #fff;
+        background: none;
+        border: 2px solid white;
     }
 }

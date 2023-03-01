@@ -24,7 +24,7 @@
 - Comeca facil e vai aumentando a complexibilidade
 - Alem de Especializacao, aprendemos integrar com diversas possibilidades.
 
-## LÓGICA  DE PROGRAMAÇÃO 
+## LÓGICA  DE PROGRAMAÇÃO
 
 ### COMPUTADOR
 
@@ -86,14 +86,11 @@
 - Console Browsers
 - Editores: Sublime, Visual Studio Code
 - JS Fiddle https://jsfiddle.net/
-
 ### Instalacao do Node.js
 
 - Para a gente conseguir executar scripts JS no terminal de comando, precisamos utilizar o Node.js
 - Instalacao: https://node.js.org/pr-br/download/package-manager 
-
- # Instalado Node (uso Terminal de Coamando)
-
+# Instalado Node (uso Terminal de Coamando)
 
 - PS C:\Users\Franklin\Desktop\Portfolio\Oficial-Port> node -v
 v18.14.2
@@ -105,3 +102,15 @@ v18.14.2
 Welcome to Node.js v18.14.2.
 Type ".help" for more information.
 - (COMANDO PARA ACESSAR PELO TERMINAL)
+
+## Variaveis
+
+Sao usadas para referenciar espacos na memoria
+
+- var
+- const (mantem o valor imutavel)
+- let
+- string (para declarar sempre entre aspas "")(formada por um conjunto de caracteres)
+- tipagem: numero ou string
+- array: conjunto de valores
+- length: serve para de modo pratico contar unidades de caracteres
