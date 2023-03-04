@@ -42,7 +42,7 @@
 
 - Aplicar a lógica para descrever os passos e resolver um problema em  ordem de execução 
 
-### A lógica de programação 
+### A lógica de programação
 
 - É  a técnica de sequenciar pensamentos, passos, fluxo de dados para atingir um objetivo: a informação
 - A sequência de passos, instruções que o computador deve seguir é conhecida como ALGORITMO 
@@ -86,10 +86,12 @@
 - Console Browsers
 - Editores: Sublime, Visual Studio Code
 - JS Fiddle https://jsfiddle.net/
+
 ### Instalacao do Node.js
 
 - Para a gente conseguir executar scripts JS no terminal de comando, precisamos utilizar o Node.js
-- Instalacao: https://node.js.org/pr-br/download/package-manager 
+- Instalacao: https://node.js.org/pr-br/download/package-manager
+  
 # Instalado Node (uso Terminal de Coamando)
 
 - PS C:\Users\Franklin\Desktop\Portfolio\Oficial-Port> node -v
@@ -114,3 +116,29 @@ Sao usadas para referenciar espacos na memoria
 - tipagem: numero ou string
 - array: conjunto de valores
 - length: serve para de modo pratico contar unidades de caracteres
+
+### Operadores
+São basicamente sinais que usamos manipular dados dentro do algoritmo
+	
+- Soma +
+- Subtração -
+- Multiplicar *
+- Dividir / 
+- Módulo (retorna com o resto de uma divisão) %
+- Math: (cirar possibilidades de gerar outras funções) ramdom(), round (), sqrt 
+
+• Atribuição
+- a = b
+- a += b
+- a -= b
+- a *= b
+- a /= b
+- a %= b
+
+• Operadores de comparação
+- Igual == ou ===
+- Diferente !=
+- Maior que >
+- Maior ou igual >=
+- Menor que <
+Menor ou igual que <=

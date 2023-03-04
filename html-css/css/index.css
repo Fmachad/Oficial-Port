@@ -151,9 +151,17 @@ nav li a:hover {
 
 @media (max-width: 769px) {
 
+     nav {
+        padding: 10px 10px !important;
+    }
+
+   ul {
+        font-size: 15px;
+        padding: 0;
+    }
 
     nav .logo a {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     nav li a {
@@ -187,7 +195,7 @@ nav li a:hover {
 
 @media (max-width: 320px) {
     nav {
-        padding: 15px 15px;
+        padding: 15px 15px !important;
     }
 
     nav .logo a {
@@ -195,11 +203,12 @@ nav li a:hover {
     }
 
     nav ul {
-        display: flex;
-        flex-direction: row;
+        display:flex;
+        flex-direction: column;
         align-items: end;
         list-style: none;
         padding: 4px;
+        margin-right: 20px!important;
     }
 
     nav li {
