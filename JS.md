@@ -119,15 +119,16 @@ Sao usadas para referenciar espacos na memoria
 
 ### Operadores
 São basicamente sinais que usamos manipular dados dentro do algoritmo
-	
+# Aritmeticos
 - Soma +
 - Subtração -
 - Multiplicar *
-- Dividir / 
+- Dividir /
 - Módulo (retorna com o resto de uma divisão) %
-- Math: (cirar possibilidades de gerar outras funções) ramdom(), round (), sqrt 
+- Math: (cirar possibilidades de gerar outras funções) ramdom(), round (), sqrt
 
-• Atribuição
+# Atribuição
+
 - a = b
 - a += b
 - a -= b
@@ -135,10 +136,109 @@ São basicamente sinais que usamos manipular dados dentro do algoritmo
 - a /= b
 - a %= b
 
-• Operadores de comparação
+# Operadores de comparação : Teste logico, retorno booleano (true / false)
+
 - Igual == ou ===
 - Diferente !=
 - Maior que >
 - Maior ou igual >=
 - Menor que <
-Menor ou igual que <=
+- Menor ou igual que <=
+
+# Comparadores logicos: teste logico, retorno booleano (true / false)
+
+- ==  igualdade entre sentencas (valor)
+- !=  Diferenca entre sentencas (valor)
+- === igualdade entre sentencas (valor e tipo)
+- !== diferenca entre sentencas (valor e tipo)
+
+# Operadores de logica e juncao logica
+  
+  - ! NAO (NOT)
+  - && E (AND)
+  - | | OU (OUR)
+
+### Exemplos:
+
+a != b      // o valor de a e diferente de b
+x !=== y    //o valor e o tipo de x sao diferentes d y
+O sinal de exclamação (!) é o operador NOT (não), utilizado para negar a sentença que vem na sequência.
+
+####  As condições lógicas são convertidas em números binários
+-  true é equivalente a 1
+- false é equivalente a 0
+
+#### Operador lógico de atribuição
+
+Tem a capacidade de atribuir valor a uma variável a partir de uma condição lógica, economiza -se Ifs
+Exemplo:
+
+ var meuCarro =  cor =="preto" ? "preto" : "branco"
+
+## IF
+
+If  (…) {
+…
+}
+
+## ELSE
+Else {
+}
+
+## ELSE IF
+
+Else if 
+
+## Switch
+
+ switch (cor) {
+	case  "branco" :
+		meuCarro = 'branco'
+	 case 'vermelho' :
+		 meuCarro = vermelho 
+	 case 'amarelo'
+		 meuCarro = 'amarelo'
+	 default: 
+		 console.log(não temos a cor desejada');
+ }
+
+ ## Media
+
+ var nota01 = 0;
+ var nota02 = 10;
+ var nota03 = 10;
+ var media = (nota01 + nota02 + nota03) / 3;
+ if( media > 8 ) {
+    console.log("Aluno aprovado")
+ } else {
+    console.log("aluno cabaco")
+ }
+
+ ## Lacos de Repeticao
+// fazer a revisao do carro aos 10 km
+
+for ([expressaoInicial]; [condicao]; [incremento])
+
+ var km;
+ var revisao = 5;
+ for(km = 0; km < revisao; km++ ){
+ 	console.log("apenas " + km + "kms eantao pode rodar");
+ }
+
+ ## Calcular medias pra diversos alunos
+
+ var alunos = [
+	[6, 7, 8, 6],
+	[5, 10, 8, 9],
+	[10, 10, 10, 10],
+ ]
+
+ var nota = 0
+ for ( var i = 0; i < alunos.length; i++){
+
+	nota = 0
+	console.Log("Aluno" aluno[i]);
+
+	for( c = 0)
+
+ }
