@@ -40,7 +40,7 @@
 
 - 10++ = 10 (operador de incremento postfix)
 
-- 10-- = 10 (mesmo exemplo degit statusg postfix)
+- 10-- = 10 (mesmo exemplo de postfix)
 
 - 1 & 1 = 1
 
@@ -60,7 +60,7 @@
 
 - (10 + 10) * 2 = 40
 
-- 10 + 10 *2 = 30
+- 10 + 10 = 30
 
 
 ## 2. Responda as perguntas de acordo com as variáveis.
@@ -72,33 +72,30 @@ var carro = “preto”;
 var valor = 30000;
 var prestacao = 750;
 
-- a) branco == “branco”
+
+a) branco == “branco”
 false
 
-- b) branco == cinza
+b) branco == cinza
 false
 
-- c) carro === branco
+c) carro === branco
 false
 
-- d) var cavalo = carro == “preto” ? “cinza” : “marron”;
+d) var cavalo = carro == “preto” ? “cinza” : “marron”;
 "cinza"
 
-- e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
-  
+e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
 de 3.000? Demonstre a operação.
 (valor - entrada) / prestação 
-#### = 30000 - 3000 / 750
-= 24000 / 750 
-#### = 32
-### São necessárias 32 prestações para pagar o valor do carro com uma entrada de 3.000
+	= 30000 - 3000 / 750
+	= 24000 / 750 
+	= 32
+são necessárias 32 prestações para pagar o valor do carro com uma entrada
+de 3.000
 
-- f) Somando as variáveis de cores é formada uma string de quantos caracteres?
+f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 'pretocinzabranco' 16 caracteres
-
-- (https://jsfiddle.net/franklinfernandes/9j5vncbm/9/) >> TESTE NO FIDDLE JS/HTML/CSS
-
-- https://jsfiddle.net/franklinfernandes/9j5vncbm/22/  >> TESTE NO FIDDLE PARA FUNCTIONS
 
 
 
