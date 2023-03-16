@@ -84,6 +84,17 @@ SELECIONA O OBJETO E DISPONIBILIZA ( METODOS / FUNCOES) .callback (chamadas)
 - window.log()
 - console.log()
 - window.scrollTo()
+  
+# Seletores
+## Tipos de Seletores: Tag, ID, Class, Name, Query
+- Callback
+- getElementById() ( Entre parenteses Sempre o nome do arquivo)
+- getElementByTagName()
+- getElementByName()
+- getElementByClassName()
+- querySelectorAll() // #id | .class
+
+
 
 ## REFERENCIAS
 
@@ -91,3 +102,4 @@ SELECIONA O OBJETO E DISPONIBILIZA ( METODOS / FUNCOES) .callback (chamadas)
 -  TECNOLOGIAS JS: https://developer.mozzila.org/pt-BR/docs/web/JavaScript/JavaScript_technologies_overview
 -  MOTORES DE EXECUCAO: https://pt.wikipedia.org/wiki/lista_de_motores_de_renderiza%C3%A7%C3%A3o
   
+
