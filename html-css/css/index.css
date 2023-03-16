@@ -7,12 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-body {
-    padding: 0;
-    width: 100%;
-}
-
 nav {
     background-color: black;
     padding: 30px 60px;
@@ -111,7 +105,7 @@ nav li a:hover {
 .texto .botoes button.overlay {
     background: white;
     color: black;
-    animation: vibrar 0.5s ease-in-out infinite both;
+    animation: vibrar 1s ease-in-out infinite both;
 }
 
 .btn01 {
@@ -147,7 +141,7 @@ nav li a:hover {
     }
 }
 
-/*Resposive*/
+/*Responsive*/
 
 @media (max-width: 769px) {
 
@@ -244,5 +238,9 @@ nav li a:hover {
         color: #fff;
         background: none;
         border: 2px solid white;
+    }
+
+    .btn02 {        
+        font-size: 15px;
     }
 }

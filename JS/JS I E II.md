@@ -189,20 +189,38 @@ Else {
 
 Else if 
 
+- Exemplo
+if (cor == "preto") {
+    meuCarro = "preto";
+
+} else if (cor == "vermelho"){
+    meuCarro = "cinza";
+
+} else if (cor == "amarelo"){
+    meuCarro = "branco";
+
+} else {
+    meuCarro = "azul";
+}
+
 ## Switch
+```
+switch (cor) {
+    case 'branco' : 
+        meuCarro = 'branco';
+        break;
+    case 'vermelho' : 
+        meuCarro = 'vermelho';
+        break;
+    case 'amarelo' :
+        meuCarro = 'amarelo';
+        break;
+    default : 
+        console.log('não temos a cor desejada');
+} 
+```
 
- switch (cor) {
-	case  "branco" :
-		meuCarro = 'branco'
-	 case 'vermelho' :
-		 meuCarro = vermelho 
-	 case 'amarelo'
-		 meuCarro = 'amarelo'
-	 default: 
-		 console.log(não temos a cor desejada');
- }
-
- ## Media
+ ## Calcular Media do aluno
 
  var nota01 = 0;
  var nota02 = 10;
